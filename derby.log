@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Feb 28 19:52:12 AST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0170-8e36-f82c-0000057f92b0 
+on database directory memory:F:\Subjects\Project\Workspace\CanadaTourismApp\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/hemin/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_191-b12
+user.dir=F:\Subjects\Project\Workspace\CanadaTourismApp
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
