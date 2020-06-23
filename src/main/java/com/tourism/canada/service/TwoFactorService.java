@@ -133,32 +133,13 @@ public class TwoFactorService {
         p7.add("Card Number: XXXX XXXX XXXX "+transaction.getCardNumber().substring(11)); //no alignment
         p7.setSpacingAfter(36f);
         document.add(p7);
-
-//        Font f = new Font();
-//        f.setStyle(Font.BOLD);
-//        f.setSize(8);
         
         Paragraph p8 = new Paragraph();
         p8.add("Happy Journey"); 
         p8.setSpacingAfter(36f);
         p8.setAlignment(Element.ALIGN_CENTER);
         document.add(p8);
-        
-       /* String filename = "F:\\Subjects\\Cloud-SaurabhDey\\Mayank-Branch\\24-03-2020\\cloud-project-Dev-Mayank\\CanadaTourismApp\\download.png";
-        Image image = null;
-		try {
-			image = Image.getInstance(filename);
-		} catch (BadElementException | IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		image.setAlignment(Image.ALIGN_RIGHT);
-        try {
-			document.add(image);
-		} catch (DocumentException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}*/
+       
 
         //close
         document.close();
